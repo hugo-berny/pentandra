@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a Pentandra - Hablemos sobre tu próximo proyecto digital.">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>Contacto | Pentandra</title>
+    
+    <!-- Preconnect to Font CDNs -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo text-gradient">PENTANDRA</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section" style="padding-top: 180px; min-height: 90vh;">
+            <div class="grid-lines">
+                <div class="grid-line-v"></div>
+                <div class="grid-line-v"></div>
+                <div class="grid-line-v"></div>
+                <div class="grid-line-v"></div>
+                <div class="grid-line-v"></div>
+            </div>
+
+            <div class="container">
+                <div data-animate>
+                    <span class="eyebrow"># CONTACTO</span>
+                    <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin-bottom: 4rem;">Hablemos</h1>
+                </div>
+
+                <div style="max-width: 800px;" data-animate data-delay="1">
+                    <form action="#" method="post" onsubmit="return false;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                            <div class="form-group">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Tu nombre completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required placeholder="correo@ejemplo.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="empresa" class="form-label">Empresa (Opcional)</label>
+                            <input type="text" id="empresa" name="empresa" class="form-control" placeholder="Nombre de tu empresa">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" class="form-control" required placeholder="¿En qué podemos ayudarte?"></textarea>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <button type="submit" class="btn btn-primary btn-animate">
+                                Enviar mensaje &nbsp; ->
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>Copyright © 2026 Pentandra, todos los derechos reservados.</div>
+                <div style="display: flex; gap: 2rem;">
+                    <a href="index.html" class="nav-link">Volver al Inicio</a>
+                    <span class="font-mono" style="opacity: 0.3;">//</span>
+                    <span class="font-mono">SYS_STATUS: READY</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
