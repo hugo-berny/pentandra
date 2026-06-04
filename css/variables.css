@@ -1,15 +1,15 @@
 :root {
   /* Colors */
   --color-bg: #0a0a0a;
-  --color-bg-secondary: #111111;
-  --color-bg-card: #0f0f0f;
+  --color-bg-secondary: #121800;
+  --color-bg-card: #181818;
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-hover: rgba(255, 255, 255, 0.15);
   --color-text: #f0f0f0;
   --color-text-secondary: #888888;
   --color-text-tertiary: #555555;
-  --color-accent-start: #22c55e;
-  --color-accent-end: #f59e0b;
+  --color-accent-start: #AEEB29;
+  --color-accent-end: #FFFD75;
   
   /* Typography */
   --font-sans: 'Everett', ui-sans-serif, system-ui, sans-serif;

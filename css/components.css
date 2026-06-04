@@ -24,11 +24,10 @@
   align-items: center;
 }
 
-.logo {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  font-size: 1.2rem;
+.navbar__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
@@ -53,9 +52,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 10px 24px;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 500;
   text-transform: uppercase;
   transition: var(--transition-base);
@@ -64,7 +63,8 @@
 }
 
 .btn-primary {
-  color: var(--color-text);
+  color: #0E1400;
+  font-weight: 600;
   background: var(--color-bg);
   border: 1px solid transparent;
 }
@@ -93,6 +93,17 @@
 .service-card:hover {
   background: var(--color-bg-card);
   transform: translateY(-4px);
+  border-color: var(--color-border-hover);
+}
+
+/* Advantage Cards */
+.advantage-card {
+  padding: 3rem;
+  border: 1px solid var(--color-border);
+  transition: var(--transition-base);
+}
+
+.advantage-card:hover {
   border-color: var(--color-border-hover);
 }
 

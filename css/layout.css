@@ -73,11 +73,11 @@
 .auto-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  border-left: var(--grid-line);
-  border-top: var(--grid-line);
 }
 
 .auto-grid > * {
   border-right: var(--grid-line);
   border-bottom: var(--grid-line);
+  border-top: var(--grid-line);
+  border-left: var(--grid-line);
 }
