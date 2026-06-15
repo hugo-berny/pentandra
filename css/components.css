@@ -161,7 +161,9 @@
 .form-control {
   width: 100%;
   padding: 1rem;
-  background: transparent;
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: var(--grid-line);
   color: var(--color-text);
   transition: var(--transition-base);
