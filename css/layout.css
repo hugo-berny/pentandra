@@ -81,3 +81,19 @@
   border-top: var(--grid-line);
   border-left: var(--grid-line);
 }
+
+.auto-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1024px) {
+    .auto-grid--4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .auto-grid--4 {
+        grid-template-columns: 1fr;
+    }
+}

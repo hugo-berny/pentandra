@@ -96,6 +96,16 @@
   border-color: var(--color-border-hover);
 }
 
+#paquetes .service-card {
+    display: flex;
+    flex-direction: column;
+}
+
+#paquetes .service-card .btn {
+    margin-top: auto !important;
+    align-self: flex-start;
+}
+
 /* Advantage Cards */
 .advantage-card {
   padding: 3rem;
@@ -130,6 +140,10 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+#paquetes .service-card .feature-list {
+    margin-bottom: 1.5rem;
 }
 
 .feature-item {
