@@ -26,6 +26,7 @@
     
     <!-- Scripts -->
     <script src="js/main.js" defer></script>
+    <script src="js/form.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -60,7 +61,7 @@
                 </div>
 
                 <div style="max-width: 800px;" data-animate data-delay="1">
-                    <form action="#" method="post" onsubmit="return false;">
+                    <form name="contacto" method="POST" data-netlify="true" id="contact-form">
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
                             <div class="form-group">
                                 <label for="nombre" class="form-label">Nombre</label>
@@ -83,9 +84,10 @@
                         </div>
 
                         <div style="margin-top: 2rem;">
-                            <button type="submit" class="btn btn-primary btn-animate">
+                            <button type="submit" class="btn btn-primary btn-animate" id="submit-btn">
                                 Enviar mensaje &nbsp; ->
                             </button>
+                            <p id="form-feedback" style="margin-top: 1rem; font-size: 0.9rem; display: none;"></p>
                         </div>
                     </form>
                 </div>
